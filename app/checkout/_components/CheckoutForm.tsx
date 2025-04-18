@@ -107,7 +107,6 @@ const CheckoutForm = ({ amount }: { amount: number | string }) => {
         >
           {loading ? (
             <>
-              {" "}
               <svg
                 aria-hidden="true"
                 role="status"
