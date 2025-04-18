@@ -42,10 +42,10 @@ const MyCart = ({
   });
   return (
     <div
-      className={`h-[350px] w-[300px] ${
+      className={`h-[350px] w-[90%] sm:w-[300px] ${
         open ? "block" : "hidden"
       } bg-gray-100 rounded-md border border-black/50
-        shadow-sm absolute !z-[999] mx-10 right-10 top-12 p-5 overflow-auto `}
+        shadow-sm absolute !z-[999]  right-0 sm:right-10 top-12 p-5 overflow-auto `}
     >
       <div className="mt-4 space-y-6">
         {shoppingCart.length ? (
