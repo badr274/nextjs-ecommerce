@@ -52,7 +52,7 @@ const CheckoutForm = ({ amount }: { amount: number | string }) => {
       clientSecret,
       elements,
       confirmParams: {
-        return_url: "http://localhost:3000/confirm-page",
+        return_url: "https://nextjs-ecommerce-rose-one.vercel.app/confirm-page",
       },
     });
     if (result.error) {
